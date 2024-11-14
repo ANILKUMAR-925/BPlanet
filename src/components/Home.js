@@ -41,8 +41,8 @@ const Home = () => {
         </Link>
     </div>
     <br></br>
+    <p style={{fontSize:30,marginLeft:40}}>FEATURED PRODUCT</p>
     <div id='photo'>
-      <p style={{fontSize:30,marginLeft:40}}>FEATURED PRODUCT</p>
       <img src={img1} alt="B.planet Logo" className="img_1" />
       <img src={img2} alt="B.planet Logo" className="img_2" />
       <img src={img3} alt="B.planet Logo" className="img_3" />
