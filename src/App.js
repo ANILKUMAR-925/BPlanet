@@ -11,16 +11,16 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <div>
-        <NavBar />
-        <Routes>
-          <Route exact ={true} path="/" element ={<Home/>} />
-          <Route exact ={true} path="/Login" element ={<Login/>} />
-          <Route exact ={true} path="/Profile" element ={<Profile/>} />
-          <Route exact ={true} path="/Description" element ={<Description/>} />
-          <Route exact ={true} path="/Contact" element ={<Contact/>} />
-        </Routes>
-      </div>
+       <div>
+         <NavBar />
+         <Routes>
+           <Route exact ={true} path="/" element ={<Home/>} />
+           <Route exact ={true} path="/Login" element ={<Login/>} />
+           <Route exact ={true} path="/Profile" element ={<Profile/>} />
+           <Route exact ={true} path="/Description" element ={<Description/>} />
+           <Route exact ={true} path="/Contact" element ={<Contact/>} />
+         </Routes>
+       </div>
     </Router>
   );
 }

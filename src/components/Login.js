@@ -43,9 +43,9 @@ const Login = () => {
           <h2>Login</h2>
           <p>Welcome back !!</p>
           <label>Email</label>
-          <input type="email" value="rahulkumar@gmail.com" />
+          <input type="email"/>
           <label>Password</label>
-          <input type="password" value="......" />
+          <input type="password"/>
           <div className="password-options">
             <a href="#">Forget Password ?</a>
           </div>
